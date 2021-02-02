@@ -1,0 +1,53 @@
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__left {
+  display: flex;
+  /* padding: 20px; */
+  align-items: center;
+}
+
+span .MuiSvgIcon-root {
+  padding-right: 10px;
+}
+
+.navbar__left span {
+  display: flex;
+  align-items: center;
+
+  margin-left: 5px;
+  margin-right: 20px;
+}
+
+.navbar__right {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar__right .MuiSvgIcon-root {
+  margin: 10px;
+}
+.navbar__left .MuiSvgIcon-root {
+  align-items: center;
+}
+
+.MuiSvgIcon-root:hover {
+  color: #ff69b5;
+  border-bottom: 2px solid#FF69B5;
+  cursor: pointer;
+}
+
+span:hover {
+  color: #ff69b5;
+  border-bottom: 2px solid#FF69B5;
+  cursor: pointer;
+}
+
+img {
+  width: 75px;
+  height: 75px;
+  object-fit: contain;
+}
