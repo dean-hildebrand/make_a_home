@@ -40,7 +40,7 @@ span .MuiSvgIcon-root {
   align-items: center;
 }
 
-span:hover {
+.navbar__container span:hover {
   color: #ff69b5;
   border-bottom: 2px solid#FF69B5;
   cursor: pointer;

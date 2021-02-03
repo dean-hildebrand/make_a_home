@@ -1,5 +1,28 @@
+.carousel__container {
+  position: relative;
+}
+
 .living__room {
   object-fit: cover;
   width: 100%;
   height: 500px;
+}
+
+.carousel__container .more__btn {
+  position: absolute;
+  color: #ccc;
+  cursor: pointer;
+  background-color: #2f3e59;
+  border: 1px solid grey;
+  right: 25%;
+  bottom: 50%;
+}
+
+.carousel__container .title {
+  position: absolute;
+  color: #ccc;
+  bottom: 67%;
+  right: 700px;
+  font-weight: 800;
+  text-align: center;
 }

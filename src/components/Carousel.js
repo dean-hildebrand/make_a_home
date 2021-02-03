@@ -1,6 +1,7 @@
 import React from "react";
 import livingRoom from "../images/living_room.jpg";
-import '../css/Carousel.css'
+import "../css/Carousel.css";
+import { Button } from "@material-ui/core";
 // import { AutoRotatingCarousel, Slide } from "material-auto-rotating-carousel";
 
 // const Slide = require("./Slide").default;
@@ -9,8 +10,13 @@ import '../css/Carousel.css'
 
 function Carousel(props) {
   return (
-    <div>
+    <div className="carousel__container">
       <img className="living__room" src={livingRoom} alt="living room" />
+      <div className="title">
+        <h1>Welcome</h1>
+        <h3>Make a Home Furnishings</h3>
+      </div>
+      <Button className="more__btn">Know More</Button>
     </div>
   );
 }
