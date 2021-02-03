@@ -1,5 +1,6 @@
 import React from "react";
 import FurnitureCard from "./FurnitureCard";
+import "../css/FurnitureContainer.css";
 
 const furniture = [
   {
