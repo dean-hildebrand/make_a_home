@@ -16,7 +16,6 @@ span .MuiSvgIcon-root {
 .navbar__left span {
   display: flex;
   align-items: center;
-
   margin-left: 5px;
   margin-right: 20px;
 }
@@ -30,14 +29,15 @@ span .MuiSvgIcon-root {
 .navbar__right .MuiSvgIcon-root {
   margin: 10px;
 }
-.navbar__left .MuiSvgIcon-root {
-  align-items: center;
-}
 
-.MuiSvgIcon-root:hover {
+.navbar__right .MuiSvgIcon-root:hover {
   color: #ff69b5;
   border-bottom: 2px solid#FF69B5;
   cursor: pointer;
+}
+
+.navbar__left .MuiSvgIcon-root {
+  align-items: center;
 }
 
 span:hover {
