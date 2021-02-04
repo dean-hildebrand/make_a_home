@@ -1,14 +1,43 @@
 .footer {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 30px;
+  margin-top: 50px;
   border-top: 1px dotted grey;
 }
 
-footer p {
-  line-height: 10px;
+.footer p {
+  line-height: 25px;
+  margin-top: 20px;
+}
+
+.footer ul {
+  list-style-type: none;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.footer h4 {
+  margin-top: 20px;
+  margin-left: 40px;
 }
 
 .summary {
   width: 300px;
+  margin-top: 20px;
+}
+
+.copyright-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.me {
+  display: flex;
+  text-align: center;
+}
+
+.me .MuiSvgIcon-root {
+  margin-left: 5px;
+  text-align: center;
 }
