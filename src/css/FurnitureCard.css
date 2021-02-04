@@ -1,3 +1,4 @@
-.furniture__card {
-  display: flex;
+.furniture__card img {
+  width: 200px;
+  height: 200px;
 }

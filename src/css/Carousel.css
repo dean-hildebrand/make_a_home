@@ -21,8 +21,12 @@
 .carousel__container .title {
   position: absolute;
   color: #ccc;
-  bottom: 67%;
+  bottom: 65%;
   right: 700px;
   font-weight: 800;
   text-align: center;
+}
+
+.title > h1 {
+  font-size: 60px;
 }

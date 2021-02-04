@@ -1,5 +1,6 @@
 import "./App.css";
 import Carousel from "./components/Carousel";
+import Footer from "./components/Footer";
 import FurnitureContainer from "./components/FurnitureContainer";
 import Navbar from "./components/Navbar";
 
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Carousel />
       <FurnitureContainer />
+      <Footer />
     </div>
   );
 }

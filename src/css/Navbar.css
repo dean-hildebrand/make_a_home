@@ -46,7 +46,7 @@ span .MuiSvgIcon-root {
   cursor: pointer;
 }
 
-img {
+.navbar__left img {
   width: 75px;
   height: 75px;
   object-fit: contain;

@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/FurnitureCard.css";
 
 function FurnitureCard({ title, price, image, id }) {
   return (
