@@ -14,19 +14,23 @@
   cursor: pointer;
   background-color: #2f3e59;
   border: 1px solid grey;
-  right: 25%;
+  right: 50%;
   bottom: 50%;
+}
+
+.carousel__container .more__btn:hover {
+  background-color: #2f3e59;
 }
 
 .carousel__container .title {
   position: absolute;
-  color: #ccc;
+  color: #000;
   bottom: 65%;
-  right: 700px;
+  right: 400px;
   font-weight: 800;
   text-align: center;
 }
 
 .title > h1 {
-  font-size: 60px;
+  font-size: 80px;
 }

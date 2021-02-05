@@ -33,7 +33,12 @@ function FurnitureContainer({ title, image, price, id }) {
   return (
     <div className="furniture__container">
       {furniture.map((f) => (
-        <FurnitureCard title={f.title} price={f.price} image={f.image} />
+        <FurnitureCard
+          key={f.id}
+          title={f.title}
+          price={f.price}
+          image={f.image}
+        />
       ))}
     </div>
   );
