@@ -48,26 +48,32 @@ function Contact() {
           alt="picture"
         />
       </div>
-      <div className="contact__form">
-        <form>
-          <label>
-            Name:
-            <input type="text" name="name" />
-          </label>
-          <label>
-            Email:
-            <input type="text" name="email" />
-          </label>
-          <label>
-            Subject:
-            <input type="text" name="subject" />
-          </label>
-          <label>
-            Message:
-            <textarea type="text" name="message" />
-          </label>
-          <input type="submit" value="Submit" />
-        </form>
+
+      <div className="form__container">
+        <h2 id="form__heading">Contact Form</h2>
+        <div className="contact__form">
+          <form>
+            <label>
+              Name:
+              <input type="text" name="name" />
+            </label>
+            <label>
+              Email:
+              <input type="text" name="email" />
+            </label>
+            <label>
+              Subject:
+              <input type="text" name="subject" />
+            </label>
+            <div className="message">
+              <label>
+                Message:
+                <textarea type="text" name="message" id="message__text" />
+              </label>
+            </div>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
       </div>
       <Footer />
     </div>
