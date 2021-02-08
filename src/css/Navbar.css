@@ -1,6 +1,7 @@
 .navbar__container {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px dotted grey;
 }
 
 .navbar__left span {

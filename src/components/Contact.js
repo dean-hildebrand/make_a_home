@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/ContactInfo.css";
+import Footer from "../components/Footer";
 
 import PhoneIcon from "@material-ui/icons/Phone";
 
@@ -31,7 +32,7 @@ function Contact() {
           </ul>
         </div>
         <div className="hours">
-          <h2>Working Hours</h2>
+          <h2>Hours</h2>
           <ul className="hours__list">
             <li>Monday: Closed</li>
             <li>Tuesday: Closed</li>
@@ -47,6 +48,28 @@ function Contact() {
           alt="picture"
         />
       </div>
+      <div className="contact__form">
+        <form>
+          <label>
+            Name:
+            <input type="text" name="name" />
+          </label>
+          <label>
+            Email:
+            <input type="text" name="email" />
+          </label>
+          <label>
+            Subject:
+            <input type="text" name="subject" />
+          </label>
+          <label>
+            Message:
+            <textarea type="text" name="message" />
+          </label>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <Footer />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 .contact__page h1 {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .contact__container {
   display: flex;
@@ -18,14 +18,15 @@
 
 .contact__list {
   list-style: none;
+  border-left: 1px solid grey;
 }
 
 .hours__list {
   list-style: none;
   margin-right: 80px;
+  border-left: 1px solid grey;
 }
 
-.hours {
-  /* flex: 1; */
-  /* min-width: 250px; */
+.hours h2 {
+  text-align: center;
 }
